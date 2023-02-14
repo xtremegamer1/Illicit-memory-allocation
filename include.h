@@ -1,0 +1,13 @@
+#pragma once
+#include <ntdef.h>
+#include <ntifs.h>
+#include <ntddk.h>
+#include <windef.h>
+#include <ntstrsafe.h>
+#include <wdm.h>
+#include "kernel_user_shared.h"
+#include "macro.h"
+#include "ioctl.h"
+#include "globals.h"
+#include "nt.h"
+#include "HandleBlocking.h"
